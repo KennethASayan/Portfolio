@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Developer portfolio website for a full-stack engineer and product builder."
+    />
+    <title>Kenneth Sayan | Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-grid"></div>
+
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="#top" class="brand" aria-label="Home">
+          <span class="brand-mark">KS</span>
+          <span>Kenneth Sayan</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">Full-stack developer • Vue.js • React.js • Svelte</p>
+          <h1>
+            Building modern web products with clean UI and strong backend logic.
+          </h1>
+          <p class="hero-text">
+            I build responsive web applications using modern frontend frameworks and reliable backend
+            systems, with experience in Laravel, Node.js, REST APIs, and database-driven development.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#contact">Hire Me</a>
+          </div>
+
+          <ul class="social-proof" aria-label="Key metrics">
+            <li><strong>6+</strong><span>Years experience</span></li>
+            <li><strong>28</strong><span>Projects shipped</span></li>
+            <li><strong>12k+</strong><span>Users reached</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-panel" aria-label="Developer profile summary">
+          <div class="panel-card profile-card">
+            <div class="status-row">
+              <span class="dot"></span>
+              <span>Available for work</span>
+            </div>
+            <div class="avatar-wrap">
+              <div class="avatar">
+                <img src="profile.jpg" alt="Kenneth Sayan profile" class="avatar-image" />
+              </div>
+            </div>
+            <div class="info-block">
+              <h2>Kenneth Sayan</h2>
+              <p>Full-Stack Developer</p>
+            </div>
+            <div class="mini-stats">
+              <div>
+                <span>Speciality</span>
+                <strong>Vue / React / Svelte</strong>
+              </div>
+              <div>
+                <span>Stack</span>
+                <strong>Laravel / Node</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tools-strip" aria-label="Core tools and technologies">
+        <div class="tools-wrap">
+          <div class="tool-item"><span class="tool-icon">P</span> Prototyping</div>
+          <div class="tool-item"><span class="tool-icon">F</span> Figma</div>
+          <div class="tool-item"><span class="tool-icon">FR</span> Framer</div>
+          <div class="tool-item"><span class="tool-icon">C</span> Claude</div>
+          <div class="tool-item"><span class="tool-icon">C</span> ChatGPT</div>
+          <div class="tool-item"><span class="tool-icon">CU</span> Cursor</div>
+          <div class="tool-item"><span class="tool-icon">L</span> Lovable</div>
+          <div class="tool-item"><span class="tool-icon">A</span> AI-assisted Design</div>
+          <div class="tool-item"><span class="tool-icon">JS</span> React JS</div>
+          <div class="tool-item"><span class="tool-icon">JS</span> JavaScript</div>
+          <div class="tool-item"><span class="tool-icon">H</span> HTML/CSS</div>
+          <div class="tool-item"><span class="tool-icon">U</span> UX Design</div>
+          <div class="tool-item"><span class="tool-icon">UI</span> UI Design</div>
+
+          <div class="tool-item"><span class="tool-icon">P</span> Prototyping</div>
+          <div class="tool-item"><span class="tool-icon">F</span> Figma</div>
+          <div class="tool-item"><span class="tool-icon">FR</span> Framer</div>
+          <div class="tool-item"><span class="tool-icon">C</span> Claude</div>
+          <div class="tool-item"><span class="tool-icon">C</span> ChatGPT</div>
+          <div class="tool-item"><span class="tool-icon">CU</span> Cursor</div>
+          <div class="tool-item"><span class="tool-icon">L</span> Lovable</div>
+          <div class="tool-item"><span class="tool-icon">A</span> AI-assisted Design</div>
+          <div class="tool-item"><span class="tool-icon">JS</span> React JS</div>
+          <div class="tool-item"><span class="tool-icon">JS</span> JavaScript</div>
+          <div class="tool-item"><span class="tool-icon">H</span> HTML/CSS</div>
+          <div class="tool-item"><span class="tool-icon">U</span> UX Design</div>
+          <div class="tool-item"><span class="tool-icon">UI</span> UI Design</div>
+        </div>
+      </section>
+
+      <section id="about" class="section container about">
+        <div class="section-heading">
+          <p class="eyebrow">About me</p>
+          <h2>Turning clear ideas into elegant, high-impact software.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>
+              I’m a full-stack developer focused on building user-friendly products that solve real
+              business problems. My experience spans frontend frameworks like Vue.js, React.js, and
+              Svelte, as well as backend work with Laravel, Node.js, and database-driven APIs.
+            </p>
+            <p>
+              In 2025, I used Svelte during my OJT and strengthened my frontend craft in a real-world
+              production setting. I also work with PostgreSQL, MySQL, MongoDB, and REST APIs to build
+              scalable and maintainable systems.
+            </p>
+          </div>
+
+          <div class="quote-card">
+            <p>
+              “Good software should feel effortless to use, and great engineering should make growth
+              feel inevitable.”
+            </p>
+            <span>— Kenneth</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2>Products built to move businesses forward.</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-badge">SaaS</div>
+              <h3>FlowPilot</h3>
+              <p>
+                A workflow automation dashboard that helped a B2B team reduce manual operations by
+                38% through custom analytics, role-based access, and streamlined task orchestration.
+              </p>
+              <ul>
+                <li>React + TypeScript</li>
+                <li>Node.js API</li>
+                <li>PostgreSQL</li>
+              </ul>
+              <a href="#contact">Discuss a similar build</a>
+            </article>
+
+            <article class="project-card featured">
+              <div class="project-badge">Fintech</div>
+              <h3>Northstar Pay</h3>
+              <p>
+                A modern payments platform with real-time dashboards, compliance-ready flows, and a
+                conversion-focused onboarding experience designed for international teams.
+              </p>
+              <ul>
+                <li>Design system</li>
+                <li>Performance optimization</li>
+                <li>API integration</li>
+              </ul>
+              <a href="#contact">View case study</a>
+            </article>
+
+            <article class="project-card">
+              <div class="project-badge">Marketplace</div>
+              <h3>ValueLoop</h3>
+              <p>
+                A discovery-driven marketplace with personalized recommendations, trust signals, and a
+                frictionless mobile-first browsing experience for buyers and sellers.
+              </p>
+              <ul>
+                <li>Next.js</li>
+                <li>Stripe</li>
+                <li>CMS integrations</li>
+              </ul>
+              <a href="#contact">Explore the product</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section container experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Building products across design, engineering, and growth.</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-year">2026 — Present</div>
+            <div class="timeline-content">
+              <h3>Full-Stack Developer</h3>
+              <p class="company">Denr10</p>
+              <p>
+                Developing web applications using Vue.js and Laravel with PostgreSQL and Node.js,
+                focusing on user-facing features, backend logic, and product reliability.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-year">2023 — 2026</div>
+            <div class="timeline-content">
+              <h3>Product & Web Developer</h3>
+              <p class="company">Independent work</p>
+              <p>
+                Worked on product-driven development, UI refinement, and building user-facing
+                experiences with a strong emphasis on design, speed, and maintainability.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-year">2023</div>
+            <div class="timeline-content">
+              <h3>Started developing</h3>
+              <p class="company">Beginning of journey</p>
+              <p>
+                Started learning and building with a focus on web technologies, creating clean,
+                functional, and user-centered digital experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Thoughtful execution across the stack.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h3>Frontend</h3>
+              <div class="tags">
+                <span>Vue.js</span>
+                <span>React.js</span>
+                <span>Svelte</span>
+                <span>TypeScript</span>
+                <span>Tailwind</span>
+                <span>HTML/CSS</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Backend</h3>
+              <div class="tags">
+                <span>Laravel</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>REST APIs</span>
+                <span>PostgreSQL</span>
+                <span>MySQL</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3>Workflow</h3>
+              <div class="tags">
+                <span>Agile</span>
+                <span>Figma</span>
+                <span>CI/CD</span>
+                <span>Testing</span>
+                <span>Performance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <p class="eyebrow">Let’s build something great</p>
+          <h2>Ready to turn your next idea into a product people remember?</h2>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:sayankennethangel@gmail.com">sayankennethangel@gmail.com</a>
+          <a href="https://github.com/KENNETHSAYAN" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/KennethASayan" target="_blank" rel="noreferrer">Second GitHub</a>
+          <a href="https://github.com/KENNETHSAYAN" target="_blank" rel="noreferrer">Portfolio Code</a>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Kenneth Sayan. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
